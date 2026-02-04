@@ -24,14 +24,15 @@ ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC addres
 Boot kali and Windows7 virtual machines.
 In windows 7 give the command arp -a
 ## OUTPUT:
+![Alt text](image/arp-abe.png)
 
-![Alt text](image/1.png)
 
 From kali linux issue the command:
 sudo arpspoof -i eth0 -t <target system> <gateway>
 ## OUTPUT:
 
-![Alt text](image/2.png)
+![Alt text](image/arpspoofg.png)
+![Alt text](image/arp-aaf.png)
 
 
 ## dsniff:
@@ -39,28 +40,30 @@ sudo arpspoof -i eth0 -t <target system> <gateway>
 In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
 ## OUTPUT:
 
-![Alt text](image/3.png)
-
+![Alt text](image/metaout.png)
 
 In Kali issue the following commands:
 sudo dsnifff
 
 ## OUTPUT:
 
-![Alt text](image/4.png)
-
+![Alt text](image/dsniff.png)
 
 Invoke the wireshark and examine the various menus  and controls of the tool:
 
  ## OUTPUT:
 
-![Alt text](image/wireshark.png)
+![Alt text](image/1wire.png)
+
+
 
 ## Ettercap
 Ettercap supports active and passive dissection of many protocols (even encrypted ones) and includes many feature for network and host analysis.
 Ettercap can be used as sniffing tool as illustrated below:
 
-![Alt text](image/ettercap.png)
+![Alt text](image/e.png)
+
+
 
 ## RESULT:
 The kali linux tools for ARP Attack and Network Sniffing were identified successfully
