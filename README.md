@@ -52,6 +52,8 @@ sudo dsnifff
 Invoke the wireshark and examine the various menus  and controls of the tool:
 
  ## OUTPUT:
+ 
+![Alt text](image/w1.png)
 
 ![Alt text](image/1wire.png)
 
@@ -60,6 +62,8 @@ Invoke the wireshark and examine the various menus  and controls of the tool:
 ## Ettercap
 Ettercap supports active and passive dissection of many protocols (even encrypted ones) and includes many feature for network and host analysis.
 Ettercap can be used as sniffing tool as illustrated below:
+
+![Alt text](image/e1.png)
 
 ![Alt text](image/e.png)
 
